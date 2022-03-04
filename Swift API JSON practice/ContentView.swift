@@ -62,8 +62,8 @@ struct ContentView: View {
                     
                 }
             }
+            .navigationTitle(Text("Courses"))
         }
-        .navigationTitle("Courses")
         .onAppear{ viewModel.fetch() }
     }
 }
